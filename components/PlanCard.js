@@ -7,13 +7,13 @@ function PlanCard({ name, monthly, downloads }) {
         <div className="px-4 w-2/5 text-white">
           <h2 className="text-lg font-medium mb-2">{name}</h2>
           <div className="font-medium">
-            <span className="text-3xl font-bold">${monthly}</span>
-            <span className="mx-1">/</span>
+            <span class="text-3xl font-bold">${monthly}</span>
+            <span class="mx-1">/</span>
             <span>month</span>
           </div>
         </div>
         <div className="px-4 w-3/5">
-          <ul className="list-none p-0 text-sm text-navy-lighter font-medium">
+          <ul class="list-none p-0 text-sm text-navy-lighter font-medium">
             <li className="mb-1">{downloads} downloads / month</li>
             <li className="mb-1">Unlimited shows and episodes</li>
             <li>Analytics, teams, and more...</li>

@@ -23,7 +23,7 @@ export default function IndexPage() {
             Start your podcast today:
           </h1>
           <div className="flex flex-wrap -mx-4">
-            <div className="w-full mb-6 md:mb-0 md:w-1/2">
+            <div class="w-full mb-6 md:mb-0 md:w-1/2">
               <PlanSelector />
             </div>
             <div className="w-full md:w-1/2 px-4 md:pt-10">
@@ -51,7 +51,7 @@ export default function IndexPage() {
                 <button className="block w-full bg-yellow uppercase px-4 py-4 font-bold text-yello-dark rounded mb-4 border-b-2 border-yellow-dark focus:outline-none focus:shadow-outline">
                   Create my account
                 </button>
-                <p className="text-white font-medium text-sm mb-4 text-center">
+                <p class="text-white font-medium text-sm mb-4 text-center">
                   Include a 14 day trial before billing begins
                 </p>
               </form>

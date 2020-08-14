@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Transistor FM</title>
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
       <Component {...pageProps} />
     </>
